@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style type="text/css">
+        header {
+            width: 1350px;
+            background-color: red;
+        }
+
+        nav {
+            height: 50px;
+            background-color: whitesmoke;
+        }
+
+        .container>div>* {
+            height: 1500px;
+            background-color: rgba(251, 234, 234, 0.621);
+        }
+
+        .container>div>article {
+            background-color: whitesmoke;
+
+        }
+
+        footer {
+            height: 50px;
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="row">
+            <img src="/img/Banner.png" alt="">
+        </header>
+        <nav class="row">
+            <h1 style="text-align: center;">Phiếu Đăng Ký</h1>
+        </nav>
+        <div class="row">
+            <aside class="col-1"></aside>
+            <article class="col-10">
+                <div>
+                    <h3>Thông tin Thí Sinh</h3>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <label for="exampleInputEmail1" class="form-label">Họ Và Tên</label>
+                        <input type="email" class="form-control">
+
+                    </div>
+                    <div class="col-3">
+                        <label for="exampleInputEmail1" class="form-label">Ngày Sinh</label>
+                        <input type="email" class="form-control">
+
+                    </div>
+                    <div class="col-3">
+                        <label for="exampleInputEmail1" class="form-label">Giới Tính</label>
+                        <select class="form-select " aria-label=".form-select-lg example">
+                            <option selected>Nam</option>
+                            <option value="1">Nữ</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                        <label for="exampleInputEmail1" class="form-label">Dân Tộc</label>
+                        <input type="email" class="form-control">
+                    </div>
+
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-4">
+                        <label for="exampleInputEmail1" class="form-label">Số CCCD/Chứng minh nhân dân</label>
+                        <input type="email" class="form-control">
+
+                    </div>
+                    <div class="col-4">
+                        <label for="exampleInputEmail1" class="form-label">Ngày cấp</label>
+                        <input type="email" class="form-control">
+
+                    </div>
+                    <div class="col-4">
+                        <label for="exampleInputEmail1" class="form-label">Nơi cấp</label>
+                        <input type="email" class="form-control">
+                    </div>
+
+                </div>
+
+                <br>
+                <div class="row">
+                    <h4>Hộ khẩu thường trú (Điền thông tin đầy đủ như trong sổ hộ khẩu)</h4>
+                    <div class="col-3">
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option selected>Chọn Tỉnh Thành Phố</option>
+                            <option value="1">Java</option>
+                            <option value="2">PHP</option>
+                            <option value="3">HTML</option>
+                        </select>
+
+                    </div>
+                    <div class="col-3">
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option selected>Chọn Quận Huyện</option>
+                            <option value="1">Java</option>
+                            <option value="2">PHP</option>
+                            <option value="3">HTML</option>
+                        </select>
+
+                    </div>
+                    <div class="col-3">
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option selected>Chọn xã/phường/thị trấn</option>
+                            <option value="1">Java</option>
+                            <option value="2">PHP</option>
+                            <option value="3">HTML</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                        <input type="email" class="form-control">
+                    </div>
+
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-3">
+                        <label for="exampleInputEmail1" class="form-label">Số điện thoại thí sinh</label>
+                        <input type="text" class="form-control">
+
+                    </div>
+                    <div class="col-3">
+                        <label for="exampleInputEmail1" class="form-label">Email thí sinh</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="col-3">
+                        <label for="exampleInputEmail1" class="form-label">Họ tên phụ huynh</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="col-3">
+                        <label for="exampleInputEmail1" class="form-label">Số điện thoại phụ huynh</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                </div>
+                <br>
+
+                <div>
+                    <h3>THÔNG TIN ĐĂNG KÝ TRƯỜNG CAO ĐẲNG FPT POLYTECHNIC</h3>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option selected>Chọn Tỉnh Thành Phố</option>
+                            <option value="1">Java</option>
+                            <option value="2">PHP</option>
+                            <option value="3">HTML</option>
+                        </select>
+
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                   
+                    <div class="col-3">
+                        <h6>Nguyện Vọng thứ Nhất</h6>
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option selected>Ngành</option>
+                            <option value="1">Java</option>
+                            <option value="2">PHP</option>
+                            <option value="3">HTML</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                        <label for=""></label>
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option selected>Ngành Khác</option>
+                            <option value="1">Java</option>
+                            <option value="2">PHP</option>
+                            <option value="3">HTML</option>
+                        </select>
+                    </div>
+                  
+                    <div class="col-3">
+                        <h6>Nguyện Vọng thứ hai</h6>
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option selected>Ngành</option>
+                            <option value="1">Java</option>
+                            <option value="2">PHP</option>
+                            <option value="3">HTML</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                        <label for=""></label>
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option selected>Ngành Khác</option>
+                            <option value="1">Java</option>
+                            <option value="2">PHP</option>
+                            <option value="3">HTML</option>
+                        </select>
+                    </div>
+                </div>
+
+                <br>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="exampleInputEmail1" class="form-label">Năm tốt nghiệp THPT hoặc tương đương</label>
+                        <select class="form-select  aria-label=" .form-select-lg example">
+                            <option selected>2023</option>
+                            <option value="1">Java</option>
+                            <option value="2">PHP</option>
+                            <option value="3">HTML</option>
+                        </select>
+
+                    </div>
+                    <div class="col-6">
+                        <label for="exampleInputEmail1" class="form-label">Trường tốt nghiệp THPT hoặc tương
+                            đương</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <h6>Nơi tốt nghiệp</h6>
+                    <div class="col-4">
+                        <select class="form-select  aria-label=" .form-select-lg example">
+                            <option selected>Chọn tỉnh/Thành Phố</option>
+                            <option value="1">Java</option>
+                            <option value="2">PHP</option>
+                            <option value="3">HTML</option>
+                        </select>
+
+                    </div>
+                    <div class="col-4">
+                        <select class="form-select  aria-label=" .form-select-lg example">
+                            <option selected>Quận Huyện</option>
+                            <option value="1">Java</option>
+                            <option value="2">PHP</option>
+                            <option value="3">HTML</option>
+                        </select>
+
+                    </div>
+                    <div class="col-4">
+                        <select class="form-select  aria-label=" .form-select-lg example">
+                            <option selected>xã/phường/thị trấn</option>
+                            <option value="1">Java</option>
+                            <option value="2">PHP</option>
+                            <option value="3">HTML</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <h3>THÔNG TIN NHẬN GIẤY BÁO KẾT QUẢ</h3>
+                    <br>
+                </div>
+                <div class="row">
+
+                    
+                    <div class="col-3">
+                        <h6>Người Nhận</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            Thí Sinh
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            Phụ huynh
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-3"></div>
+                    <div class="col-3">
+                        <h6>Nguyện Vọng thứ hai</h6>
+                        <div class="form-check1">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            Thí Sinh
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            Phụ huynh
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <h6></h6>
+                    </div>
+                </div>
+                <br>
+                <h3>TẢI LÊN GIẤY TỜ XÁC THỰC</h3>
+                  <div class="row">
+                    <div class="col-3">
+                      <label for="">Ảnh CMT/CCCD mặt trước</label>
+                      <p class="fw-light">(bắt buộc)</p>
+                      <img src="/img/anh1.jpg" alt="" width="300px" height="150px">
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-3">
+                      <label for="">Ảnh CMT/CCCD mặt sau</label>
+                      <p class="fw-light">(bắt buộc)</p>
+                      <img src="/img/anh2.jpeg" alt="" width="300px" height="150px">
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                      <label for="">Bản sao công chứng Bằng tốt nghiệp THPT</label>
+                      <p class="fw-light">Hoặc giấy chứng nhận tốt nghiệp tạm thời (không bắt buộc)</p>
+                      <img src="/img/anh22.jpg" alt="" width="300px" height="150px">
+                    </div>
+                    <div class="col-4">
+                        <label for="formFile" class="form-label"></label>
+                        <input class="form-control" type="file" id="formFile">
+                      </div>
+                      <div class="col-4">
+                        <label for="formFileMultiple" class="form-label"></label>
+                        <input class="form-control" type="file" id="formFileMultiple" multiple>
+                      </div>
+                      <div class="col-4">
+                        <label for="formFileDisabled" class="form-label"></label>
+                        <input class="form-control" type="file" id="formFileDisabled" disabled>
+                      </div>
+                  </div>
+                  <br>
+                <div class="row">
+                    <div class="form-check col-md-12" >
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Tôi xin cam đoan những lời khai của tôi trên phiếu đăng ký này là đúng sự thật. Nếu sai tôi hoàn toàn chịu trách nhiệm và nhận xử lý theo Quy chế tuyển sinh cao đẳng hiện hành</label>
+                      </div>
+                      <div class="form-check col-md-12" >
+                        
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Tôi đã đọc kỹ và cam kết tuân thủ Quy định tài chính của nhà trường</label>
+                      </div>
+                      
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-5 aqua"></div>
+                    <div class="col-1 aqua"></div>
+                    <div class="col-3 brown">
+                        <div class="col-3 ">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <aside class="col-1"> </aside>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
